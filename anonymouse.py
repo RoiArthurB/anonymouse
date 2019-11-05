@@ -11,7 +11,7 @@ to      = input('to: ')
 subject = input('subject: ')
 message = input('message: ')
 
-user_agent = 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+user_agent = 'Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0'
 sess = requests.Session()
 email_req = sess.post('http://anonymouse.org/cgi-bin/anon-email.cgi',
     headers={
